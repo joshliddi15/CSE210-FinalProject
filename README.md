@@ -1,6 +1,6 @@
-# CSE210-Template (CHANGE ME!!!)
+# CSE210-FinalProject
 
-BYUI CSE-210 Template Repo (CHANGE ME!!!)
+BYUI CSE-210 Team F5 Final Project
 
 ## How to use this project
 
