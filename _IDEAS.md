@@ -24,6 +24,14 @@
 
 * And more...
 
+## Aitana
+
 ### PONG game
 
+## Josh
 
+### INSERT IDEA HERE
+
+## Guage
+
+### INSERT IDEA HERE
