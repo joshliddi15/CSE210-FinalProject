@@ -20,7 +20,7 @@
 
 * Will have a modding/extension system (if we have time) (?)
 
-* Will run on the "text-game-maker" framework (which has most of what we need already setup): [here](https://pypi.org/project/text-game-maker/)
+* Will either be written on Raylib or from scratch using Python's input() method.
 
 * And more...
 
