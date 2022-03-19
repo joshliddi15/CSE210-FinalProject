@@ -30,7 +30,7 @@
 
 ## Josh
 
-### INSERT IDEA HERE
+### Resteraunt Game
 
 ## Guage
 
