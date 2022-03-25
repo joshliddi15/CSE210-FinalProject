@@ -1,0 +1,2 @@
+class GameSaveUtils():
+    pass
