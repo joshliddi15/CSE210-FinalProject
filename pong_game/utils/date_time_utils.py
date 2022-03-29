@@ -13,11 +13,21 @@ class DateTimeUtils():
         """
         return self.local_datetime.strftime(format)
     
-    def get_current_time(self, format: str = '%H:%M:%S'):
+    def get_current_time(self):
         """
         Gets the current time as a string.
         """
-        return self.local_datetime.strftime(format)
+        hours =     f"{self.dt_now.hour}"
+        minutes =   f"{self.dt_now.minute}"
+        seconds =   f"{self.dt_now.second}"
+        
+        if self.dt_now.hour > 12:
+            hours = f"{self.dt_now.hour-12}"
+        if self.dt_now.second < 10:
+            seconds = f"0{self.dt_now.second}"
+        if self.dt_now.minute < 10:
+            minutes = f"0{self.dt_now.minute}"
+        return f"{hours}:{minutes}:{seconds}"
     
     
         
