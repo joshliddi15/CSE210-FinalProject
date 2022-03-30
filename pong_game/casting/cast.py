@@ -34,10 +34,7 @@ class Cast:
         Returns:
             List: The actors in the group.
         """
-        results = []
-        if group in self._actors.keys():
-            results = self._actors[group].copy()
-        return results
+        return self._actors[group].copy() if group in self._actors.keys() else []
     
     def get_all_actors(self):
         """Gets all of the actors in the cast.
@@ -59,10 +56,7 @@ class Cast:
         Returns:
             List: The first actor in the group.
         """
-        result = None
-        if group in self._actors.keys():
-            result = self._actors[group][0]
-        return result
+        return self._actors[group][0] if group in self._actors.keys() else None
 
     def remove_actor(self, group, actor):
         """Removes an actor from the given group.
