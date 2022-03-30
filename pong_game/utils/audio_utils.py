@@ -2,8 +2,6 @@ from playsound import playsound
 
 class AudioUtils():
     
-    def __init__(self) -> None:
-        pass
-            
+    # Play a sound file
     def play_sound(self, path: str):
         playsound(sound=path)

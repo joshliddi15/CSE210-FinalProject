@@ -8,6 +8,6 @@ class Game():
     def start(self):
         print(f"\nStarting {self._data.CAPTION} v{self._data.get_game_version()}...\n")
         print(f"Current date is: {self._data.date_utils.get_current_date()}.\n")
-        print(f"Current local is: {self._data.date_utils.get_current_time()}.\n")
+        print(f"Current local time is: {self._data.date_utils.get_current_time()}.\n")
         
         

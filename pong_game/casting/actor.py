@@ -24,7 +24,7 @@ class Actor:
         self._velocity = (0, 0)
 
     def get_color(self):
-        """Get's the actor's color as a tuble of threee ints (r, g, b).
+        """Get's the actor's color as a tuple of three ints (r, g, b).
         
         Returns: The actor's text color.
         """
