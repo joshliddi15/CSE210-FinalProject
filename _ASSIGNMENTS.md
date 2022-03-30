@@ -12,7 +12,7 @@
 
 ## Aitana
 
-- "handlers" fo
+- "handlers" folder
 
 - Assist with others if needed.
 
