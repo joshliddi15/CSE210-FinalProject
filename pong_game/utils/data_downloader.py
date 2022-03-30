@@ -6,16 +6,15 @@ from utils.exceptions import InternalErrorException
 
 class DataDownloader():
     
-    def __init__(self):
-        pass
-    
+    # Get the game's version from a URL, named 'url'
     def get_version_from_url(self, url):
         request = requests.get(url)
         
         lines = request.text.split("\n")
         
         return lines[0]
-        
+    
+    # Download a file to the game directory. This was intended to be called, but was never implemented. 
     def download_file(self, url, out_dir: str = os.getcwd(), file_name: str = None, large_file: bool = False):
         request = requests.get(url, stream=large_file)
         
